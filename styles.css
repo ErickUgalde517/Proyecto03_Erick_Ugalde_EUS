@@ -515,6 +515,11 @@ h1{
     .galeria{
       display: none;
     }
+
+    #textobienvenida{
+      font-size: 30px;
+      
+    }
 }
 @media screen and (max-width: 768px) {
   body {
