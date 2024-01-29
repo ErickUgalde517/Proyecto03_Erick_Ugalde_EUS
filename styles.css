@@ -344,6 +344,9 @@ h1{
   
   #white{
     color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
 
   p{
@@ -456,6 +459,32 @@ h1{
     margin: 0;
 }
 
+.platform {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.platform img {
+  width: 80px;
+  height: 80px;
+  height: auto;
+}
+
+.platform h3 {
+  margin-top: 10px;
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+.platform p {
+  color: white;
+}
+
+
+
 @media (max-width: 768px) {
 
     .nav-list {
@@ -517,9 +546,12 @@ h1{
     }
 
     #textobienvenida{
-      font-size: 30px;
+      display: none;
+      }
       
-    }
+      #white{
+        display: none;
+      }
 }
 @media screen and (max-width: 768px) {
   body {
